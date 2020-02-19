@@ -50,6 +50,7 @@ namespace Tests
 
             // Verify that each score's game region matches the provided game region.
             Assert.That(scores, Is.All.Matches<Score>(score => score.GameRegion == gameRegion));
+<<<<<<< HEAD
         }
 
         [TestCase(0, ExpectedResult = 0)]
@@ -70,6 +71,8 @@ namespace Tests
 
             // Verify that we received the specified number of items.
             return scores.Count();
+=======
+>>>>>>> 1ed6a2e30a95a134dc32365772f63783676c38b1
         }
     }
 }
